@@ -7,4 +7,15 @@
 
 ![JMeter HTML Report](./xsl/report/s1.png "HTML Report")
 
+    xsltproc /xsl/jmeter-results-report-loadtest.xsl JMETER_TC.jtl > JMETER_TC.html <br />
+
+![JMeter HTML Report](./xsl/report/s2.png "HTML Report")
+
+
+    xsltproc /xsl/JMeterLogParser.xsl JMETER_TC.jtl > JMETER_TC.html <br />
+
+![JMeter HTML Report](./xsl/report/s3.png "HTML Report")
+
+
+
 
